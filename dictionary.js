@@ -21,13 +21,15 @@ class Historygram extends React.Component {
   }
 
   titleArea() {
-    return <div>
+    return <div id="titleDiv">
             <h1> Historygram </h1>
            </div>
   }
 
   dataArea() {
-
+    return <div id="posts">
+      
+    </div>
   }
 
   render() {
