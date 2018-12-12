@@ -12,9 +12,26 @@ class Historygram extends React.Component {
     this.titleArea = this.titleArea.bind(this)
     this.dataArea = this.dataArea.bind(this)
   }
+
+  socialFeed() {
+    return <div>
+      {this.titleArea()}
+      {this.dataArea()}
+    </div>
+  }
+
+  titleArea() {
+    return <div>
+            <h1> Historygram </h1>
+           </div>
+  }
+
+  dataArea() {
+
+  }
+
   render() {
-    this.titleArea()
-    this.dataArea()
+    return this.socialFeed()
   }
 }
 
