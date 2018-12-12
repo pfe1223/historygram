@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+#content {
+  width: 500px;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+#titleDiv {
+  width: 480px;
+  margin: auto;
+  background-color: rgb(56, 108, 151);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(246, 246, 246);
+  font-size: 75px;
+  font-family: sans-serif;
+}
+
+#posts {
+  background-color: 'red';
+  height: 480px;
+}
