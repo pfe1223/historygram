@@ -9,10 +9,10 @@ body {
 }
 
 #titleDiv {
-  width: 480px;
+  width: 100%;
   margin: auto;
   background-color: rgb(56, 108, 151);
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 h1 {
